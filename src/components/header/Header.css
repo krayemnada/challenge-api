@@ -1,0 +1,30 @@
+.cont {
+    position: relative;
+    /* max-width: 100%; Maximum width */
+    margin: 0 auto; /* Center it */
+    width: 100%;
+}
+
+.cont .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: #002347; /* Fallback color */
+    background: #002347;
+    opacity: 0.8; /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 290px; /* Some padding */
+}
+h1,
+h3 {
+    display: flex;
+    justify-content: center;
+}
+Button {
+    background: transparent !important;
+    /* box-sizing: 50px; */
+    border-radius: 20px;
+}
+.me-2 {
+    background: #fdc632;
+}

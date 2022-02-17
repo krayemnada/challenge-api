@@ -1,0 +1,65 @@
+.single_event .img {
+    overflow: hidden;
+}
+.single_event .img {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.single_event:hover img {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.single_event:hover h3 a {
+    color: #fdc632;
+}
+.single_event .event_details {
+    background: rgba(0, 35, 71, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 196px;
+    right: 0px;
+    width: 305px;
+    padding: 80px 25px;
+    color: #ffffff;
+}
+.single_event .event_details .tit {
+    color: #ffffff;
+    padding-right: 15px;
+    border-right: 2px solid #fff;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+}
+.single_event .event_details .tit h3 {
+    display: block;
+    color: #fdc632;
+    font-size: 28px;
+    font-weight: 500;
+}
+.single_event .event_details .tit2 {
+    padding-left: 15px;
+    font-size: 14px;
+}
+.single_event .event_details .tit2 h6 {
+    margin-bottom: 0px;
+}
+.single_event .event_details .tit2 h6 {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+}
+.btn :hover a {
+    background-color: #033f7b;
+    color: #fdc632;
+}
+.img {
+    display: inline-block;
+}
+.single_event {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
