@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Button, Card } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { fetchProduct } from "../../redux/Action";
@@ -43,8 +42,8 @@ const ProductList = () => {
         return <h2>No Products matched your search criteria</h2>;
     }
     return (
-        <div>
-            <div>
+        <div className="container">
+            <div className="all">
                 {modifiedProduct.map((item) => {
                     const { id, name, image, info, title } = item;
                     return (
@@ -91,8 +90,9 @@ const ProductList = () => {
                                     </Card.Body>
                                 </Card>
                             </div> */}
+                            <div className="">
                             <div className="all">
-                                <div>
+                                <div className="pictr">
                                     <div className="single_event position-relative">
                                         <div className="img">
                                             <img
@@ -130,6 +130,7 @@ const ProductList = () => {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                     );
